@@ -1,0 +1,29 @@
+.cancellation-container{
+    margin-top:100px;
+    margin:100px;
+    margin-bottom: 0;
+    padding:40px;
+    gap:10px;
+    background-color: rgb(255, 244, 231);
+    color: rgb(27, 25, 25);
+   
+}
+.cancellation-1{
+    align-items: center;
+    text-align: center;
+
+}
+.cancellation-1 h2{
+ color: rgb(16, 16, 88);
+    
+}
+.cancellation-2 h2{
+   font-family: Arial, Helvetica;
+       
+   }
+.cancellation-2  p{
+    text-align: left;
+    font-family: sans-serif;
+    
+
+}

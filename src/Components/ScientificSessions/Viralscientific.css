@@ -1,0 +1,92 @@
+.Viral_scientific_container {
+    margin-top: 100px;
+  }
+  
+  .Viral_scientific_background_container {
+    background-image: linear-gradient(rgba(103, 199, 243, 0.7), rgba(3, 69, 96, 0.7)), url("http://sarafianoslab.com/wp-content/uploads/2023/07/Screen-Shot-2023-07-27-at-10.22.18-AM-1024x385.png");
+    text-align: center;
+    padding: 20px;
+   
+  }
+  .Viral_scientific_background_container p, h1{
+  color: white;
+  }
+  
+  .Viral_scientific_content_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .Viral_scientific_text{
+      text-align: center;
+      padding: auto;
+      margin:20px;
+      align-items: center;
+      color: rgb(19, 54, 103);
+  }
+  
+  .Viral_scientific_heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .Viral_scientific_topic-rows {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Viral_scientific_topic-list {
+    list-style-type: none;
+    padding: 0;
+    width: 48%; 
+    font: 1em sans-serif;
+    font-size:20px;
+    font-weight: 550;
+    color: rgb(20, 20, 59);
+    border: 1px solid #ccc;
+  }
+  
+  .Viral_scientific_topic-item {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .Viral_scientific_topic-title {
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Viral_scientific_icon {
+    margin-right: 10px;
+    color: #007BFF;
+  }
+  
+  .Viral_scientific_topic-content {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  .scientific_button{
+  padding-left:340px;
+  }
+  .scientific_btn{
+    background-color: #1e4c9d;
+    padding: 12px 14px;
+    width:200px;
+    font-size: 14px;
+    margin:20px;
+    border:0;
+    outline:0;
+    align-items: center;
+    border-style: none;
+    color: #ffffff;
+  
+  }

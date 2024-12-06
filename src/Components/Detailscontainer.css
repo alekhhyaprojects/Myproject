@@ -1,0 +1,99 @@
+.details-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    max-width: 100%;
+    margin:auto;
+    justify-content: space-between;
+    background-color: #b5b1b1;
+    height: 100%;
+    padding-left:60px;
+    padding-right:60px;
+  }
+.detail-box {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    line-height: normal;
+    width:400px;
+    border-color: black;
+    border-width:10%;
+}
+.detail-heading-box {
+    font-size:20px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+.detail-paragraph-box {
+    font-size:20px;
+    color: #555;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    text-align: left;
+  }
+.detail-box:hover {
+    transform: translateY(-5px);
+  }
+.headingbox {
+      font-size: 1.5rem;
+  }
+.detail-icon{
+    color: #0c0c66;
+    font-size:40px;
+    margin-left:10px;
+    
+}
+
+.m-media {
+  text-align: center;
+  background-color:white; /* Light background color for contrast */
+  padding: 20px 20px;
+}
+
+.m-Mediahead {
+  font-size: 36px;
+  color: #000000; /* Dark blue color for the heading */
+  margin-bottom: 40px;
+  font-weight: bold;
+  position: relative;
+}
+
+
+/* Container for media boxes */
+.m-Mediacontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Space between media boxes */
+}
+
+/* Individual media boxes */
+.m-Mediabox1 {
+  flex: 1 1 200px; /* Flexbox for responsiveness */
+  max-width: 200px; /* Set a max width */
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the box */
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for media boxes */
+.m-Mediabox1:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Images inside the media boxes */
+.M-boximg {
+  max-width: 100%;
+  height: auto;
+}
+
+.Faq-heading{
+  color: #000000;
+  text-align: center;
+}

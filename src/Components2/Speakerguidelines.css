@@ -1,0 +1,29 @@
+.speakerguidelines{
+    background-color: rgb(242, 242, 246);
+    padding-left:100px;
+    padding-right:100px;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom:10px;
+   
+}
+.headingspeakerguidelines{
+    background-color: rgb(109, 172, 213);
+    height:200px;
+    text-align: center;
+    color: white;
+    font-family: bold;
+    align-content: center;
+    margin-top: 100px;
+    font-size:30px;
+}
+.headspeakerguidelines{
+    color: rgb(1, 25, 64);
+    font-size:30px;
+    padding-bottom: 10px;
+    
+}
+.speakerguidelines li{
+    list-style-type: style circle;
+    font-family: sans-serif;
+}

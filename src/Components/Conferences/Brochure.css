@@ -1,0 +1,166 @@
+
+.Brochure-container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(103, 199, 243, 0.7),rgba(3, 69, 96, 0.7)), url("http://sarafianoslab.com/wp-content/uploads/2023/07/Screen-Shot-2023-07-27-at-10.22.18-AM-1024x385.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    min-height: 30vh;
+    opacity: 80%;
+
+}
+
+.Brochure-text {
+    text-align: center;
+    max-width: 800px;
+    color: white;
+    padding:40px;
+    min-height:10vh;
+    
+}
+
+.Brochure-text h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+
+/*boxes*/
+.Brochure-box-container {
+    background-image: linear-gradient(rgba(160, 219, 247, 0.7),rgba(3, 69, 96, 0.7)), url("http://sarafianoslab.com/wp-content/uploads/2023/07/Screen-Shot-2023-07-27-at-10.22.18-AM-1024x385.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    max-width: 100%;
+    margin-top:100px;
+    justify-content: space-between;
+    height: 100%;
+    padding-left:60px;
+    padding-right:60px;
+  }
+.Brochure-box-text{
+    text-align: center;
+    justify-content: center;
+    text-indent:20px;
+    padding: 20px;
+}
+  .Brochure-box-head2{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .Brochure-box-para{
+    font-size:20px; 
+    font-family: serif;
+    color:white;
+  }
+    
+.Brochure-boxes {
+    gap:20px;
+    background-color: #a6adaf;
+    padding: 30px;
+    padding-left:200px;
+    transition: transform 0.3s ease-in-out;
+    line-height: normal;
+    border-color: black;
+    border-width:10%;
+    display: flex;
+    flex-direction: row;
+    margin:30px;
+    align-items: center;
+
+}
+.Brochure-box{
+    background-color: #f9f9f9;
+    border-radius:10px;
+    padding:30px;
+    height:200px;
+    width:300px;
+   
+    align-items: center;
+    text-align: center;
+    
+}
+.Brochure-headingbox {
+    font-size:20px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+.Brochure-paragraphbox {
+    font-size:20px;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+  }
+.Brochure-box:hover {
+    transform: translateY(-5px);
+  }
+.Brochure-headingbox {
+      font-size: 1.5rem;
+  }
+  
+.Brochure-paragraphbox {
+      font-size: 0.95rem;
+  }
+  
+.Brochure-icon{
+    color: rgb(1, 20, 45);
+    font-size:30px;
+}
+
+
+
+
+.Brochure-form-section{
+    margin:100px;
+    background-color: aliceblue;
+    padding:30px;
+}
+
+
+.Brochure-form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin:30px;
+    background-color: #f0f4f8;
+  }
+  .Brochure-form-section, .map {
+    flex: 1;
+    padding: 30px;
+    background-color: #eaeaea;
+    box-shadow: 0 0 10px rgba(231, 225, 225, 0.1);
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form input, .form textarea {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form button {
+    padding: 10px 15px;
+    background-color: #177ae3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:100px;
+  }
+  .form button:hover {
+    background-color: #165bd3;
+  }

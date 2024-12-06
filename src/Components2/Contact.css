@@ -1,0 +1,132 @@
+
+.contact-container {
+  background-color:  rgb(109, 172, 213);
+  display: flex;
+  flex-direction: column;
+  
+  padding: 20px;
+  max-width: 100%;
+  margin-top:100px;
+  justify-content: space-between;
+  height: 100%;
+  padding-left:60px;
+  padding-right:60px;
+}
+.contact-head2{
+    text-align: center;
+    color: white;
+    font-family: bold;
+    align-content: center;
+    font-size: 25px;
+}
+
+.contact-para{
+  padding-left:50px;
+  padding-right:50px;
+  font-size:20px;
+  text-align: justify;
+  padding:60px;
+  font-family: serif;
+  color:white;
+}
+  
+.contact-boxes {
+    gap:20px;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    line-height: normal;
+    border-color: black;
+    border-width:10%;
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+    align-items: center;
+}
+.contact-box{
+    background-color: #f9f9f9;
+    padding:20px;
+    height:200px;
+    width:400px;
+    border-radius:10px;
+    align-items: center;
+    text-align: center;
+    
+}
+.contact-headingbox {
+    font-size:20px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+.contact-paragraphbox {
+    font-size:20px;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+  }
+.contact-box:hover {
+    transform: translateY(-5px);
+  }
+.contact-headingbox {
+      font-size: 1.5rem;
+  }
+  
+.contact-paragraphbox {
+      font-size: 0.95rem;
+  }
+  
+.contact-icon{
+    color: rgb(1, 20, 45);
+    font-size:30px;
+}
+
+/*formsection*/
+.contact-form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f4f8; 
+   
+  }
+  
+  .contact-form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin:30px;
+    background-color: #f0f4f8;
+  }
+  .contact-form-section, .map {
+    flex: 1;
+    padding: 30px;
+    background-color: #eaeaea;
+    box-shadow: 0 0 10px rgba(231, 225, 225, 0.1);
+    
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form input, .form textarea {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form button {
+    padding: 10px 15px;
+    background-color: #177ae3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:100px;
+  }
+  .form button:hover {
+    background-color: #165bd3;
+  }
+  

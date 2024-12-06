@@ -1,0 +1,74 @@
+.pages{
+    margin: 10px auto;
+    padding:0 80px;
+    position: relative;
+  }
+  .next-icon, .previous-icon{
+    position: absolute;
+    top:40%;
+    right:0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width:50px;
+    height:50px;
+    margin:10px;
+    border-radius:50%;
+    cursor: pointer;
+    background-color: rgb(79, 79, 250);
+    color: white;
+  }
+  .previous-icon{
+    right:auto;
+    left:0;
+    color: aliceblue;
+  }
+  
+  .pagerow{
+    overflow: hidden;
+  
+    }
+  .pagerow ul{
+    display: flex;
+    width:200%;
+    overflow-x: hidden;
+    transition: 0.5sS;
+  }
+  .pagerow ul li{
+    list-style: none;
+    width:50%;
+    padding:20px;
+  
+  }
+  .page{
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    padding: 10px;
+    border-radius: 10px;
+    color: #676767;
+    line-height:1.8;
+    width:400px;
+  
+  }
+  .page img{
+    width:200px;
+    height:200px;
+    margin-right:10px;
+    margin-left:0;
+  
+  }
+  .user-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+    background-color: rgb(95, 95, 234);
+    color: white;
+  }
+  .pages-btn{
+    align-items: center;
+    padding-left:140px;
+  }
+  .details-heading{
+    color: black;
+    font-size:40px;
+    text-align: center;
+  }

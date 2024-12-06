@@ -1,0 +1,437 @@
+.virology-summit-background-container {
+    background-image: url("https://i.pinimg.com/originals/ff/87/9d/ff879d3e484e169c11f2746d5f9ca957.jpg");
+    opacity: 1.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 100px;
+    width: 100%; 
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.virology-summit-v-text {
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.virology-summit-v-text h1 {
+    font-size: 40px;
+    font-weight: 600; 
+    color: white; 
+}
+
+.virology-summit-v-text p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: white;
+}
+
+.virology-summit-summitbuttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.virology-summit-summitbuttons button {
+    padding: 15px 25px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(8, 33, 146);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.virology-summit-summitbuttons button:hover {
+    background-color: rgb(40, 60, 180);
+}
+.h{
+    padding:20px;
+}
+
+.virology-summit-infosection {
+    
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    color:black;
+    text-align: center;
+    opacity:100%;
+    background-image:url(https://wallpaperaccess.com/full/1638902.jpg);
+    
+}
+
+/* Row of clickable sections */
+.virology-summit-info-section-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.virology-summit-info-section-row p {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: rgb(238, 239, 241);
+    border-radius: 8px;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+.virology-summit-info-section-row p:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Content displayed after clicking on the sections */
+.virology-summit-info-content p {
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(111, 127, 219);
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+    color:black;
+}
+.virology-summit-info-p{
+    background-color:white;
+    width:auto;
+    text-align: justify;
+    text-align: start;
+    align-items: center;
+    margin:50px;
+    padding:30px;
+}
+
+/* scientific-sessions-container */
+
+.virology-summit-scientific-sessions-container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .virology-summit-scientific-sessions-container h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  .virology-summit-scientific-sessions-container p{
+    text-align: center;
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 40px;
+  }
+  
+  .virology-summit-topics-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .virology-summit-topics-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+  }
+  
+  .virology-summit-topic-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .virology-summit-topic-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .virology-summit-tick-icon {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .virology-summit-topic-item  p{
+    margin: 0;
+    font-size: 18px;
+    color: #495057;
+  }
+  .virology-summit-scientificbutton{
+    margin-top:2%;
+    margin-left:43%;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(0, 19, 144);
+    border: none;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+   
+  }
+  /*registrationboxes*/
+  .virology-summit-registrationtext h3{ 
+    padding-top:30px;
+    padding-bottom:10px;   
+    padding-left:150px;
+    text-align: left;
+  }
+  .virology-summit-registrationtext p{    
+    padding-left:150px;
+    padding-right:150px;
+    padding-bottom:10px;
+    text-align: left;
+  }
+ .virology-summit-registration-heading,.virology-summit-Get-heading{
+  color: black;
+  text-align: center;
+ }
+ 
+ 
+  .virology-summit-registration-boxes{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+  border: rgb(28, 8, 66);
+  margin: 30px;
+  height:260px;
+  padding-left:80px;
+  padding-right:80px;
+  }
+.virology-summit-registrationbox{
+  flex: 1;
+  padding: 20px;
+  background-color: #f5f7fa;
+  /* border: 2px solid rgb(180, 178, 178); */
+  box-shadow: 0 4px 6px rgba(179, 178, 178, 0.1);
+  text-align: center;
+  
+
+}
+.virology-summit-registrationbox:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+.virology-summit-inner-box:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.virology-summit-inner-box{
+    padding:30px;
+    margin-bottom: 10px;
+    height:160px;
+    border: 2px solid rgb(185, 175, 175); /* Black border for the inner box */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
+    margin:10px;
+    width:350px;
+    
+  }
+  .virology-summit-boxicons {
+    font-size: 50px;
+    color: rgb(13, 27, 118);
+    margin-bottom: 1opx;
+    border: 2px solid rgb(34, 4, 90); /* Black border for the icons */
+    padding: 10px;
+    border-radius: 50%; /* Circular border for the icon */
+    display: inline-block;
+  }
+  .virology-summit-button{
+  padding: 10px 20px;
+  background-color: rgb(13, 27, 118);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  }
+
+
+/*registrationboxes2*/
+.virology-summit-h{
+  color: black;
+  text-align: center;
+  padding:10px;
+}
+.virology-summit-Get-text{
+  padding-left:80px ;
+  padding-right:80px ;
+  text-align: center;
+
+}
+  .virology-summit-registration-boxes2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 10px;
+    border: rgb(28, 8, 66);
+    margin: 50px;
+    height:200px;
+    padding-left:80px;
+    padding-right:80px;
+    }
+  .virology-summit-registrationbox2{
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f7fa;
+    /* border: 2px solid rgb(180, 178, 178); */
+    box-shadow: 0 4px 6px rgba(179, 178, 178, 0.1);
+    text-align: center;
+     
+  }
+  
+  .virology-summit-inner-box2{
+      padding:30px;
+      margin-bottom: 10px;
+      height:160px;
+      border: 2px solid rgb(185, 175, 175); /* Black border for the inner box */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background-color: white;
+    }
+    .virology-summit-boxicons2 {
+      font-size: 50px;
+      color: rgb(13, 27, 118);
+      margin-bottom: 10px;
+      border: 2px solid rgb(34, 4, 90); /* Black border for the icons */
+      padding: 10px;
+      border-radius: 50%; /* Circular border for the icon */
+      display: inline-block;
+    }
+    
+
+    
+    .virology-summit-m-media {
+      text-align: center;
+      background-color:white; /* Light background color for contrast */
+      padding: 20px 20px;
+    }
+    
+    .virology-summit-m-Mediahead {
+      font-size: 36px;
+      color: #000000; /* Dark blue color for the heading */
+      margin-bottom: 40px;
+      font-weight: bold;
+      position: relative;
+    }
+    
+    
+    /* Container for media boxes */
+    .virology-summit-m-Mediacontainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* Space between media boxes */
+    }
+    
+    /* Individual media boxes */
+    .virology-summit-m-Mediabox1 {
+      flex: 1 1 200px; /* Flexbox for responsiveness */
+      max-width: 200px; /* Set a max width */
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the box */
+      transition: transform 0.3s ease;
+    }
+    
+    /* Hover effect for media boxes */
+    .virology-summit-m-Mediabox1:hover {
+      transform: scale(1.05); /* Slight zoom on hover */
+    }
+    
+    /* Images inside the media boxes */
+    .virology-summit-M-boximg {
+      max-width: 100%;
+      height: auto;
+    }
+/*venue*/
+    .virology-summit-venue{
+      display: inline-block;
+      display: flex;
+      margin:80px;
+      
+    }
+  
+    .virology-summit-venue h1{
+      text-align: left;
+      padding-left:60px;
+      color: black;
+    }
+    .virology-summit-venue p{
+       align-items: flex-start;
+       text-align: justify;
+       padding-right: 30px;
+       padding-left: 60px;
+    }
+    .virology-summit-venuemap{
+      padding-right:60px;
+  
+    }
+    
+   /*contactform*/
+   .virology-summit-contact-form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f4f8;
+    margin: 30px;
+  }
+  
+  .virology-summit-contact-form-section {
+    flex: 1;
+    padding: 30px;
+    background-color: #eaeaea;
+    box-shadow: 0 0 10px rgba(231, 225, 225, 0.1);
+    margin: 50px;
+  }
+  
+  .virology-summit-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .virology-summit-contactus-heading{
+    color: black;
+    text-align: center;
+  }
+  
+  .virology-summit-form input,
+  .virology-summit-form textarea {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .virology-summit-form button {
+    padding: 10px 15px;
+    background-color: #177ae3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  .virology-summit-form button:hover {
+    background-color: #165bd3;
+  }
